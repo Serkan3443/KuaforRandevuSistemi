@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81C2F22C-395E-4236-B981-6BC743B55D52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KuaforRandevu.BLL</RootNamespace>
+    <AssemblyName>KuaforRandevu.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\IAdresler.cs" />
+    <Compile Include="Interface\IAlinanUrunler.cs" />
+    <Compile Include="Interface\IBakimlar.cs" />
+    <Compile Include="Interface\ICalisanlar.cs" />
+    <Compile Include="Interface\IFiyatlar.cs" />
+    <Compile Include="Interface\IHizmetler.cs" />
+    <Compile Include="Interface\IKuaforler.cs" />
+    <Compile Include="Interface\IKullanicilar.cs" />
+    <Compile Include="Interface\IMalzemeciler.cs" />
+    <Compile Include="Interface\IMalzemeFisleri.cs" />
+    <Compile Include="Interface\IModeller.cs" />
+    <Compile Include="Interface\IMusteriler.cs" />
+    <Compile Include="Interface\IRandevuDetay.cs" />
+    <Compile Include="Interface\IRandevular.cs" />
+    <Compile Include="Interface\IResimler.cs" />
+    <Compile Include="Manager\AdreslerManager.cs" />
+    <Compile Include="Manager\AlinanUrunlerManager.cs" />
+    <Compile Include="Manager\HizmetlerManager.cs" />
+    <Compile Include="Manager\BakimlarManager.cs" />
+    <Compile Include="Manager\CalisanlarManager.cs" />
+    <Compile Include="Manager\FiyatlarManager.cs" />
+    <Compile Include="Manager\KuaforlerManager.cs" />
+    <Compile Include="Manager\KullanicilarManager.cs" />
+    <Compile Include="Manager\MalzemecilerManager.cs" />
+    <Compile Include="Manager\MalzemeFisleriManager.cs" />
+    <Compile Include="Manager\ModellerManager.cs" />
+    <Compile Include="Manager\MusterilerManager.cs" />
+    <Compile Include="Manager\RandevuDetayManager.cs" />
+    <Compile Include="Manager\RandevularManager.cs" />
+    <Compile Include="Manager\ResimlerManager.cs" />
+    <Compile Include="Manager\YetkilerManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KuaforRandevu.DLL\KuaforRandevu.DLL.csproj">
+      <Project>{14392e46-7e9b-48dc-a119-926e943a0c34}</Project>
+      <Name>KuaforRandevu.DLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

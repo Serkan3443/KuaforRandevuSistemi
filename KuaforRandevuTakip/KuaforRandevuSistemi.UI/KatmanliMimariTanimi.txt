@@ -1,0 +1,16 @@
+﻿
+1-UI Nedir:User Interface demektir
+Kullanıcıya gösterilmek istenen yapıların kodlandığı katmandır
+Bütün katmanlar bu katmana hizmet vermek için vardır.
+Bundan dolayı referanslara diğer katmanlar çağrılmalıdır
+
+
+2-DLL:Data Logic Layer 
+Veritabanı işlemlerinin tanımlandığı katmandır
+Data`ların DB`den çekildiği ve dataların DB`ye gönderildiği katmandır 
+
+3-BLL:Business Logic Layer
+Projenin asıl algoritmasının kodlandığı, bütün iş yapısının kodlandığı en önemli katmandır.
+Bu katman UI katmanına hizmet eder ama bu  katman olmadan proje bir işleve sahip değildir.
+DLL katmanı bu katmanda çok sık kullanılmak zorundadır.
+Bundan dolayı referanslar kısmında DLL katmanı dahil edilmelidir

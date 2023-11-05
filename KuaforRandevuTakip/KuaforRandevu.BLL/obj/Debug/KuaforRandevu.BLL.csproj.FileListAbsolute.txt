@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\obj\Debug\KuaforRandevu.BLL.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\obj\Debug\KuaforRandevu.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\KuaforRandevu.BLL.dll.config
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\KuaforRandevu.BLL.dll
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\KuaforRandevu.BLL.pdb
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\KuaforRandevu.DLL.dll
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\KuaforRandevu.DLL.pdb
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\KuaforRandevu.DLL.dll.config
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\obj\Debug\KuaforRandevu.BLL.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\obj\Debug\KuaforRandevu.BLL.dll
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\obj\Debug\KuaforRandevu.BLL.pdb

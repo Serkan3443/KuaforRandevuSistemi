@@ -1,0 +1,2 @@
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\obj\Debug\KuaforRandevuSistemi.BLL.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Eğitim Kurs Klasörü\C# FROM DERSLERİNE GİRİŞ\13.10.2023\Ödev Projesi\KuaforRandevuTakip\KuaforRandevu.BLL\obj\Debug\KuaforRandevuSistemi.BLL.csproj.CoreCompileInputs.cache

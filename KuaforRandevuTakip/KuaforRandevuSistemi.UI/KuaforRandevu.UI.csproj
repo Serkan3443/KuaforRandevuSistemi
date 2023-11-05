@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8180A5B5-A5BD-4B67-92B6-0BD21797B047}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KuaforRandevuSistemi.UI</RootNamespace>
+    <AssemblyName>KuaforRandevuSistemi.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAdresler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdresler.Designer.cs">
+      <DependentUpon>FormAdresler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlinanUrunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlinanUrunler.Designer.cs">
+      <DependentUpon>FormAlinanUrunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAnasayfa.Designer.cs">
+      <DependentUpon>FormAnasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGiris.Designer.cs">
+      <DependentUpon>FormGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKullanicilar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKullanicilar.Designer.cs">
+      <DependentUpon>FormKullanicilar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMalzemeFisleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMalzemeFisleri.Designer.cs">
+      <DependentUpon>FormMalzemeFisleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRandevuDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRandevuDetay.Designer.cs">
+      <DependentUpon>FormRandevuDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormYetkiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormYetkiler.Designer.cs">
+      <DependentUpon>FormYetkiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHizmetler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHizmetler.Designer.cs">
+      <DependentUpon>FormHizmetler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBakimlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBakimlar.Designer.cs">
+      <DependentUpon>FormBakimlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalisanlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalisanlar.Designer.cs">
+      <DependentUpon>FormCalisanlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFiyatlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFiyatlar.Designer.cs">
+      <DependentUpon>FormFiyatlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKuaforler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKuaforler.Designer.cs">
+      <DependentUpon>FormKuaforler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMalzemeciler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMalzemeciler.Designer.cs">
+      <DependentUpon>FormMalzemeciler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModeller.Designer.cs">
+      <DependentUpon>FormModeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMusteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMusteriler.Designer.cs">
+      <DependentUpon>FormMusteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRandevular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRandevular.Designer.cs">
+      <DependentUpon>FormRandevular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResimler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResimler.Designer.cs">
+      <DependentUpon>FormResimler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAdresler.resx">
+      <DependentUpon>FormAdresler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlinanUrunler.resx">
+      <DependentUpon>FormAlinanUrunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAnasayfa.resx">
+      <DependentUpon>FormAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBakimlar.resx">
+      <DependentUpon>FormBakimlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalisanlar.resx">
+      <DependentUpon>FormCalisanlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFiyatlar.resx">
+      <DependentUpon>FormFiyatlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGiris.resx">
+      <DependentUpon>FormGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHizmetler.resx">
+      <DependentUpon>FormHizmetler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKuaforler.resx">
+      <DependentUpon>FormKuaforler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKullanicilar.resx">
+      <DependentUpon>FormKullanicilar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMalzemeciler.resx">
+      <DependentUpon>FormMalzemeciler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMalzemeFisleri.resx">
+      <DependentUpon>FormMalzemeFisleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModeller.resx">
+      <DependentUpon>FormModeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMusteriler.resx">
+      <DependentUpon>FormMusteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRandevuDetay.resx">
+      <DependentUpon>FormRandevuDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRandevular.resx">
+      <DependentUpon>FormRandevular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResimler.resx">
+      <DependentUpon>FormResimler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormYetkiler.resx">
+      <DependentUpon>FormYetkiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KatmanliMimariTanimi.txt" />
+    <None Include="Resources\desktop-wallpaper-light-colour-backgrounds-2560x1600-line-llight-color-background.jpg" />
+    <None Include="Resources\3dduvarkagitlari-4d818317.jpg" />
+    <None Include="Resources\icons8-move-up-64.png" />
+    <None Include="Resources\indir.jpg" />
+    <None Include="Resources\images1.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\3dduvarkagitlari-ea87b662.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KuaforRandevu.BLL\KuaforRandevu.BLL.csproj">
+      <Project>{81c2f22c-395e-4236-b981-6bc743b55d52}</Project>
+      <Name>KuaforRandevu.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KuaforRandevu.DLL\KuaforRandevu.DLL.csproj">
+      <Project>{14392e46-7e9b-48dc-a119-926e943a0c34}</Project>
+      <Name>KuaforRandevu.DLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
